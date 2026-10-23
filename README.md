@@ -21,7 +21,15 @@ And activate your extension:
 
 Supported PHP versions are 8.3.36 or later in the 8.3 series, 8.4.27 or later
 in the 8.4 series, and 8.5.12 or later in the 8.5 series. These versions
-include the security fixes announced on October 21, 2026.
+include the security fixes released on October 21, 2026. Official release
+metadata: [PHP 8.3.36](https://www.php.net/releases/index.php?json&version=8.3.36),
+[PHP 8.4.27](https://www.php.net/releases/index.php?json&version=8.4.27), and
+[PHP 8.5.12](https://www.php.net/releases/index.php?json&version=8.5.12).
+
+This is a breaking change to the PHP requirements: PHP 7.x, 8.0, 8.1, 8.2,
+and earlier patches of PHP 8.3, 8.4, and 8.5 are no longer supported.
+Upgrade the PHP runtime used by Composer, Behat, and CI before updating this
+extension.
 
 ## Private to protected
 One of the tricky things in the original `behat/web-api-extension` library is
