@@ -19,6 +19,10 @@ And activate your extension:
       extensions:
         Behat\WebApiExtension: ~
 
+Supported PHP versions are 8.3.36 or later in the 8.3 series, 8.4.27 or later
+in the 8.4 series, and 8.5.12 or later in the 8.5 series. These versions
+include the security fixes announced on October 21, 2026.
+
 ## Private to protected
 One of the tricky things in the original `behat/web-api-extension` library is
 the extensive use of `private` properties and methods, preventing you from
